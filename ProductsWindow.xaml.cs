@@ -20,7 +20,7 @@ namespace ShopApp_4ISIP322
     public partial class ProductsWindow : Window
     {
 
-        private Entities2 context;
+        private Entities2 context;//я устал
 
         public ProductsWindow()
         {
