@@ -56,7 +56,7 @@ namespace ShopApp_4ISIP322
                 };
 
                 context.Products.Add(product);
-                context.SaveChanges();
+                context.SaveChanges();// cj[hfytybt
                 ClearForm();
                 LoadData(); // Обновление данных после добавления
             }
