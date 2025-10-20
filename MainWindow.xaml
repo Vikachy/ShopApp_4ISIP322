@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Система учёта товаров" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+
+            <Button x:Name="btnProducts" Content="Модуль товаров" Width="200" Height="40" Click="btnProducts_Click"/>
+            <Button x:Name="btnStatistics" Content="Модуль статистики" Width="200" Height="40" Click="btnStatistics_Click"/>
+            <Button x:Name="btnSearch" Content="Модуль поиска" Width="200" Height="40" Click="btnSearch_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

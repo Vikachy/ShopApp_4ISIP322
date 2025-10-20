@@ -24,5 +24,24 @@ namespace ShopApp_4ISIP322
         {
             InitializeComponent();
         }
+
+        private void btnProducts_Click(object sender, RoutedEventArgs e)
+        {
+            ProductsWindow productsWindow = new ProductsWindow();
+            productsWindow.ShowDialog();
+        }
+
+        private void btnStatistics_Click(object sender, RoutedEventArgs e)
+        {
+            StatisticsWindow statisticsWindow = new StatisticsWindow();
+            statisticsWindow.ShowDialog();
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            SearchWindow searchWindow = new SearchWindow();
+            searchWindow.ShowDialog();
+        }
+
     }
 }
